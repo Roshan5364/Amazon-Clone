@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftpart{
+    width: 40%;
+}
+h1{
+    color:royalblue;
+    font-size: 80px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loginpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgb(0,0,0,0.1),10px 10px 15px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+input{
+    height: 50px;
+    width: 390px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    font-size: 18px;
+    outline: none;
+}
+button[type="submit"]{
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 9px;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #166fe5;
+}
+p{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 70px;
+}
+p:hover{
+    text-decoration: underline;
+}
+a{
+    color: #0866ff;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+hr{
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px 16px;
+}
+.Createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #42B72A;
+    color: white;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+span{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #1c1e21;
+    font-weight: 20px;
+}
